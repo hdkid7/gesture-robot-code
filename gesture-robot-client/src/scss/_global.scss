@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none;
+}
+
+
+  body {
+    font-size: calc(
+      14px + (26 - 14) * ((100vw - 300px) / (1600 - 300))
+    ) !important;
+  }
+  
